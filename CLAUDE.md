@@ -1,4 +1,4 @@
-# Browser-favorites 프로젝트
+# scripts-bookmarks 프로젝트
 
 ## 경로
 - 소스: `Favorites/SourceHTML/` → 최신 파일 = 날짜가 가장 최근인 `즐겨찾기_YY. M. D..html`
