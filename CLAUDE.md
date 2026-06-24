@@ -1,5 +1,7 @@
 # scripts-bookmarks 프로젝트
 
+> **트러블슈팅**: 작업 전 또는 오류 발생 시 → [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) 먼저 확인. 없으면 LOG.md → 웹 검색 순으로 진행. 해결 후 반드시 `TROUBLESHOOTING.md`에 추가.
+
 ## 경로
 - 소스: `Favorites/SourceHTML/` → 최신 파일 = 날짜가 가장 최근인 `즐겨찾기_YY. M. D..html`
 - 출력: `Favorites/OutputHTML/Gen_즐겨찾기_YY.M.D.html` (공백·중복점 제거, Gen_ 접두사)
@@ -78,7 +80,7 @@ assert content.count('<DL><p>') == content.count('</DL><p>')
 - 폴더 판단 불명확 시 후보 제시 후 선택 요청
 
 ## 주의사항
-- `<DL><p>` 열기/닫기 반드시 균형 확인
-- 소스 파일의 ICON data:image 보존
-- `&amp;` 인코딩 주의 (`&` vs `&amp;`)
+- `<DL><p>` 열기/닫기 반드시 균형 확인 (→ `TROUBLESHOOTING.md` TS-B01)
+- 소스 파일의 ICON data:image 보존 (→ `TROUBLESHOOTING.md` TS-B03)
+- `&amp;` 인코딩 주의 (`&` vs `&amp;`) (→ `TROUBLESHOOTING.md` TS-B02)
 - HANDOFF.md 참조: @HANDOFF.md
