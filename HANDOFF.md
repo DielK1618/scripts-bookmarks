@@ -1,9 +1,9 @@
 # HANDOFF
 
 ## 현재 상태
-- 최신 소스: `즐겨찾기_26. 6. 22..html`
-- 최신 출력: `Gen_즐겨찾기_26.6.22.html`
-- 북마크 수: 318개 / 폴더 69개
+- 최신 소스: `즐겨찾기_26. 7. 6..html`
+- 최신 출력: `Gen_즐겨찾기_26.7.6.html`
+- 북마크 수: 327개 / 폴더 71개
 
 ## 완료된 작업 (채팅에서)
 - [x] 전체 구조 재편 (v1~v5)
@@ -20,6 +20,7 @@
 - [x] GitHub.dev – AI_OTHER > Ai dev 배치 (소스에서 RESOURCE > DEV > Web & dev tools → 이동)
 - [x] `Gen_즐겨찾기_26.6.15.html` 생성 (2026-06-15): Claude Platform(신규) + Google AI Studio·OpenAI Platform(Ai tools→Ai dev 상단 이동, URL 갱신)
 - [x] `Gen_즐겨찾기_26.6.22.html` 생성 (2026-06-22): RESOURCE > File transfer 폴더 신설(ToffeeShare·file.kiwi·Send Anywhere·Smash·WeTransfer) + HTML Vault URL 갱신 + weather_dashboard 제거 + GetDesign.md → Design reference 추가
+- [x] `Gen_즐겨찾기_26.7.6.html` 생성 (2026-07-06): 프로젝트 호스팅·인프라 서비스 5개 추가 — RESOURCE > Cloud(Render·Vercel·Oracle Cloud·Cloudflare), RESOURCE > DEV > Backend & API(Google Cloud Console). GitHub·Firebase Console은 기존 등록되어 있어 제외
 
 ## 다음 할 일
 - [ ] SOS 폴더 정리 (별도 관리 중, 변경 금지)

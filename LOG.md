@@ -36,3 +36,11 @@
 ### 미완료 (Claude Code에서 계속)
 - GitHub.dev 북마크 추가
 - 최신 소스(`즐겨찾기_26. 6. 8..html`) 기준 Gen_ 파일 생성
+
+## 2026-07-06
+
+- 최신 소스(`즐겨찾기_26. 7. 6..html`) 기준 프로젝트 호스팅·인프라 서비스 5개 추가
+  - `RESOURCE > Cloud`: Render, Vercel, Oracle Cloud, Cloudflare
+  - `RESOURCE > DEV > Backend & API`: Google Cloud Console (Firebase Console 옆)
+  - GitHub·Firebase Console은 기존 등록 확인되어 제외
+- `Gen_즐겨찾기_26.7.6.html` 생성 (327개 북마크 / 71개 폴더), DL 태그 균형 검증 통과
