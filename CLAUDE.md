@@ -3,8 +3,11 @@
 > **트러블슈팅**: 작업 전 또는 오류 발생 시 → [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) 먼저 확인. 없으면 LOG.md → 웹 검색 순으로 진행. 해결 후 반드시 `TROUBLESHOOTING.md`에 추가.
 
 ## 경로
-- 소스: `Favorites/SourceHTML/` → 최신 파일 = 날짜가 가장 최근인 `즐겨찾기_YY. M. D..html`
-- 출력: `Favorites/OutputHTML/Gen_즐겨찾기_YY.M.D.html` (공백·중복점 제거, Gen_ 접두사)
+- 소스: `Favorites/SourceHTML/` → 최신 파일 = 날짜가 가장 최근인 파일
+  - `즐겨찾기_YY. M. D..html` = Edge 브라우저에서 받은 원본
+  - `bookmarks_YY. M. D..html` = Chrome 브라우저에서 받은 원본
+  - 브라우저 종류와 무관하게 항상 날짜 기준 최신 파일을 소스로 사용
+- 출력: `Favorites/OutputHTML/Gen_즐겨찾기_YY.M.D.html` (공백·중복점 제거, Gen_ 접두사, 소스 브라우저와 무관하게 출력 파일명은 항상 이 규칙 고정)
 
 ## 작업 방식
 1. 소스 파일 파싱 → `url_map` 구축 (ICON 데이터 보존)
