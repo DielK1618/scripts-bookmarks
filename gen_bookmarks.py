@@ -3,10 +3,16 @@
 異쒕젰: Gen_利먭꺼李얘린_26.6.8.html
 ?묒뾽: GitHub.dev 遺곷쭏?щ? AI_OTHER > Ai dev ??異붽? ??異쒕젰 ?뚯씪 ?앹꽦
 """
+import os
 import re
 
-SRC = r"d:\CLOUD\OneDrive\DIEL_VAULT\DEVELOPMENT\Git\scripts-bookmarks\Favorites\SourceHTML\利먭꺼李얘린_26. 6. 8..html"
-DST = r"d:\CLOUD\OneDrive\DIEL_VAULT\DEVELOPMENT\Git\scripts-bookmarks\Favorites\OutputHTML\Gen_利먭꺼李얘린_26.6.8.html"
+
+# 드라이브 문자를 하드코딩하지 않는다 — 여러 PC가 같은 OneDrive 계정을 서로 다른
+# 드라이브 문자로 동기화할 수 있어서(2026-08-16), 이 스크립트 자신의 위치 기준
+# 상대 경로로 찾는다.
+_HERE = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.join(_HERE, "Favorites", "SourceHTML", "利먭꺼李얘린_26. 6. 8..html")
+DST = os.path.join(_HERE, "Favorites", "OutputHTML", "Gen_利먭꺼李얘린_26.6.8.html")
 
 with open(SRC, encoding="utf-8") as f:
     content = f.read()

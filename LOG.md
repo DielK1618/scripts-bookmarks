@@ -64,3 +64,13 @@
 ## 2026-08-21
 
 - INDEX.md 추가 — 스크립트 처리 단계·중복 방지 로직 → 파일 경로 매핑. 인덱싱 중 `gen_bookmarks.py`가 2026-06 이후 방치된 1회성 스크립트이고, 서비스 단위 중복 방지는 코드가 아니라 HANDOFF.md의 판단 규칙으로만 존재함을 확인.
+
+## 2026-08-31
+
+- `RESOURCE > ASSETS > Free icons`에 아이콘·기호 사이트 3개 추가
+  - `Lucide – 오픈소스 아이콘 라이브러리` (https://lucide.dev/icons/)
+  - `Tabler Icons – 무료 오픈소스 SVG 아이콘` (https://tabler.io/icons)
+  - `Symbl – 유니코드 문자·기호·이모지 검색` (https://symbl.cc/)
+  - 기존 Free icons 3개(Flaticon·The Noun Project·Iconscout)와 중복 없음 확인
+- `Gen_즐겨찾기_26.8.31.html` 생성 (327개 북마크 / 72개 폴더), DL 태그 균형 검증 통과 (73/73)
+- 최신 소스는 `bookmarks_26. 7. 15..html` 그대로 (신규 소스 없음, 직전 출력 복사 후 편집)
