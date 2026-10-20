@@ -1,5 +1,7 @@
 # HANDOFF
 
+> **보관 기록 (2026-10-16 고정)** — 대표 문서이며 모델은 수정하지 않는다. 새 기록은 같은 폴더의 `HANDOFF.<모델>.md`(예: `HANDOFF.claude.md`, `HANDOFF.codex.md`)에 쓰고, 읽을 때는 이 문서와 `HANDOFF.*.md`를 모두 읽는다. 규칙: `Git/CLAUDE.md` 3절.
+
 ## 현재 상태
 - 최신 소스: `bookmarks_26. 7. 15..html` (소스 파일명이 `즐겨찾기_` → `bookmarks_` 접두사로 변경됨, Edge 다운로드 로케일 차이로 추정)
 - 최신 출력: `Gen_즐겨찾기_26.8.31.html`
